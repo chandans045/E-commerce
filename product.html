@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!--cdn bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="./index.css" />
+    <!--owl-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <!--uppernav-->
+    <div class="container-fluid p-0 bg-light">
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4 style="text-align: center">FLAT 50% OFF ON JACKET</h4>
+          </div>
+          <div class="carousel-item">
+            <h4 style="text-align: center">25% OFF ON SHOES</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--nav-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark over">
+
+
+      <div class="container-fluid">
+        <button
+          class="btn btn-sm"
+          type="button"
+          style="width: 33%; padding-right: 28%"
+          data-bs-toggle="collapse"
+          data-bs-target="#sidebar"
+          aria-expanded="false"
+          aria-controls="sidebar"
+        >
+          <i class="fa-solid fa-bars bg-light"></i>
+        </button>
+        <div class="container-md" style="text-align: center; width: 33%">
+          <a class="navbar-brand text-light" href="">
+            <i class="fa-brands fa-shopify"></i> S H O P</a
+          >
+        </div>
+        <div class="navbar-toggler" style="width: 33%">
+          <div class="navbar-nav ms-auto">
+            <div class="d-flex justify-content-end">
+              <a href="" class="nav-item text-light nav-link me-4"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+              <a href="" class="nav-item text-light nav-link me-4"
+                ><i class="fa-solid fa-download"></i
+              ></a>
+              <a href="" class="nav-item text-light nav-link"
+                ><i class="fa-solid fa-camera"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" style="width: 33%" id="navbarID">
+          <div class="navbar-nav ms-auto">
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-regular fa-user"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-regular fa-heart"></i
+            ></a>
+            <a
+              href=""
+              class="nav-item text-light nav-link me-2"data-bs-toggle="collapse"
+              data-bs-target="#carthead"
+              aria-expanded="false"
+              aria-controls="carthead"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-solid fa-camera"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- toggle -->
+      <div class="navbar-toggler" style="width: 100%">
+        <div class="navbar-nav">
+          <div class="d-flex justify-content-center fixed-bottom bg-dark">
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"data-bs-toggle="collapse"
+            data-bs-target="#carthead"
+            aria-expanded="false"
+            aria-controls="carthead"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-house"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-wand-magic-sparkles"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </nav>
+<!--cart-->
+    <div class="collapse bg-dark text-light  position-absolute" style="width: 40%; margin-left: 60%; z-index: 1;" id="carthead">
+      <p class="display-6 ">C A R T</p>
+      <hr>
+      <div class="d-flex">
+      <div class="container-fluid" id="cartbody" style="display: none;">
+      <p id="sizeofcart"></p>
+      <p id="cartname"></p>
+       
+       <!-- <button class="rounded-circle bg-dark text-light me-2 "onclick="minusquantity()">-</button> -->
+       <span id="quantitycart">0</span>
+       <!-- <button class="rounded-circle bg-dark text-light ms-2 " onclick="plusquantity()">+</button> -->
+      <p id="cartprice"></p>
+      <button class="btn bg-light text-dark mb-2"id="payment"></button>
+      </div>
+    </div>
+    </div>
+<!--collapse-->
+
+    <div class="collapse bg-dark position-absolute" id="sidebar">
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        ><i class="fa-regular fa-user"></i>L O G I N</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >S H I R T</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >P A I N T</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >A C C E S S O R I E S</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >J A C K E T</a
+      >
+    </div>
+
+
+
+    <div class="container-fluid" style="width: 100%; height: 20vh"></div>
+    <!--sec1-->
+    <div class="container-fluid d-flex">
+      <div
+        class="container-fluid overflow-scroll"
+        style="height: 150vh; width: 20%"
+      >
+        <div class="container-fluid">
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collection"
+            aria-expanded="true"
+            aria-controls="collection"
+          >
+            Collections
+          </button>
+        </div>
+        <div
+          class="collapse show overflow-scroll"
+          style="height: 30vh"
+          id="collection"
+        >
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" name="select" id="shirtschecked" onclick="showshirtsonly()"/>
+            <label class="form-check-label" for=""> SHIRTS </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" name="select" id="jeanschecked" onclick="showjeansonly()"/>
+            <label class="form-check-label" for=""> JEANS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value=""  name="select" id="tshirtschecked" onclick="showtshirtsonly()"/>
+            <label class="form-check-label" for=""> T-SHIRTS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" name="select" id="trouserschecked"onclick="showtrousersonly()" />
+            <label class="form-check-label" for="">TROUSERS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">HOODIES</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> JACKETS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> SHOES</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> GLASSES</label>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#size"
+            aria-expanded="true"
+            aria-controls="size"
+          >
+            size
+          </button>
+        </div>
+        <div
+          class="collapse show overflow-scroll"
+          style="height: 30vh"
+          id="size"
+        >
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" onclick="xs()"/>
+            <label class="form-check-label" for=""> XS </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" onclick="s()" />
+            <label class="form-check-label" for=""> S </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" onclick="m()" />
+            <label class="form-check-label" for=""> M</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" onclick="l()"/>
+            <label class="form-check-label" for=""> L </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" onclick="xl()"/>
+            <label class="form-check-label" for=""> XL</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" onclick="xxl()"/>
+            <label class="form-check-label" for=""> XXL</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> 30</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> 32</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> 34</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> 36</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> 38</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> 40</label>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#color"
+            aria-expanded="true"
+            aria-controls="color"
+          >
+            Brand
+          </button>
+        </div>
+        <div
+          class="collapse show overflow-scroll"
+          style="height: 30vh"
+          id="color"
+        >
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">PUMA</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">NIKE</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">ADIDAS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">LEVIS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">NEW BALANCE</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">CROCS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">VANS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">BIRKENSTOCK</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> CLARKS ORIGINALS</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> CONVERSE</label>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#color"
+            aria-expanded="true"
+            aria-controls="color"
+          >
+            colors
+          </button>
+        </div>
+        <div
+          class="collapse show overflow-scroll"
+          style="height: 30vh"
+          id="color"
+        >
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">RED</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">BLUE</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">NAVY</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">GREEN</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">BROWN</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">BLACK</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">GREY</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">WHITE</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> PURPLE</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> OLIVE</label>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#occassion"
+            aria-expanded="true"
+            aria-controls="occassion"
+          >
+            OUTFITS
+          </button>
+        </div>
+        <div
+          class="collapse show overflow-scroll"
+          style="height: 30vh"
+          id="occassion"
+        >
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> CASUAL OUTFIT </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> WEDDING OUTFIT</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">COLLEGE OUTFIT </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">PARTY OUTFIT</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">STREET OUTFIT</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for=""> BEACH OUTFIT</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="" />
+            <label class="form-check-label" for="">OFFICE OUTFIT </label>
+          </div>
+        </div>
+      </div>
+      <!--sec 2-->
+      <!--search-->
+      <div
+        class="container-fluid overflow-scroll"
+        style="width: 80%; height: 150vh"
+      >
+        <div class="container-fluid">
+          <div class="d-flex">
+            <input
+              class="form-control me-2"
+              type="text" id="searchitem"
+              placeholder="Search"
+            
+            />
+            <button class="btn btn-outline-dark" onclick="search()">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      
+
+        <!--shirts-->
+        <div class="container-fluid">
+          <section id="shirts">
+          <div class="container-fluid mt-2 mb-5">
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+            >
+              <div
+                class="col-md-3" id="shirt1"
+                onmouseover="product11change()"
+                onmouseout="product11changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product11.jpeg" id="product11" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Black Shirt</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,500
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3"id="shirt2"
+                onmouseover="product12change()"
+                onmouseout="product12changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product12.jpeg" id="product12" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Grey Shirt</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 2,300
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3"id="shirt3"
+                onmouseover="product13change()"
+                onmouseout="product13changeagain()"
+              > <a href="./productview.html" class="text-decoration-none text-dark">
+                <div class="card shadow-sm">
+                  <img src="./image/product13.jpeg" id="product13" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Red Cut</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,800
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              </div>
+              <div
+                class="col-md-3"id="shirt4"
+                onmouseover="product14change()"
+                onmouseout="product14changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product14.jpeg" id="product14" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Green Cut</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,700
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+          <!--jeans-->
+          <section id="jeans">
+          <div class="container-fluid mt-2 mb-5">
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+            >
+              <div
+                class="col-md-3" id="jeans1"
+                onmouseover="product16change()"
+                onmouseout="product16changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product16.jpeg" id="product16" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Black Jeans</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,700
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3" id="jeans2"
+                onmouseover="product17change()"
+                onmouseout="product17changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product17.jpeg" id="product17" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Blue Jeans</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 2,400
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3" id="jeans3"
+                onmouseover="product18change()"
+                onmouseout="product18changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product18.jpeg" id="product18" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Jet Black Jeans</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,500
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3" id="jeans4"
+                onmouseover="product19change()"
+                onmouseout="product19changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product19.jpeg" id="product19" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Grey Jeans</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,500
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+          <!--tshirts-->
+<section id="tshirts">
+          <div class="container-fluid mt-2 mb-5">
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+            >
+              <div
+                class="col-md-3" id="tshirt1"
+                onmouseover="product21change()"
+                onmouseout="product21changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product21.jpeg" id="product21" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Black T-shirt</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,600
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3" id="tshirt2"
+                onmouseover="product22change()"
+                onmouseout="product22changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product22.jpeg" id="product22" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Blue T-shirt</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,300
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3" id="tshirt3"
+                onmouseover="product23change()"
+                onmouseout="product23changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product23.jpeg" id="product23" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Brown T-shirt</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,000
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3" id="tshirt4"
+                onmouseover="product24change()"
+                onmouseout="product24changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product24.jpeg" id="product24" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">White T-shirt</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,700
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XS</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">S</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">M</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">L</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XL</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">XXL</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+          <!--trousers-->
+
+
+
+          <section id="trousers">
+          <div class="container-fluid mt-2 mb-5">
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+            >
+              <div
+                class="col-md-3" id="trouser1"
+                onmouseover="product26change()"
+                onmouseout="product26changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product26.jpeg" id="product26" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Vintage Beige Pant</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,500
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3"id="trouser2"
+                onmouseover="product27change()"
+                onmouseout="product27changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product27.jpeg" id="product27" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Vintage Black Pant</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 2,300
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3"id="trouser3"
+                onmouseover="product28change()"
+                onmouseout="product28changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product28.jpeg" id="product28" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">Vintage Brown Pant</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,800
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3"id="trouser4"
+                onmouseover="product29change()"
+                onmouseout="product29changeagain()"
+              >
+                <div class="card shadow-sm">
+                  <img src="./image/product29.jpeg" id="product29" alt="" />
+
+                  <div class="card-body">
+                    <p class="card-text text-center">White Shirt</p>
+                    <p class="card-text text-secondary text-center">
+                      Rs. 1,700
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="container-md">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">30</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">32</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">34</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">36</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">38</span>
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                        >
+                          <span class="text-dark">40</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+  </div>
+</div>
+</div>
+    <!--footer-->
+    <div class="container-fluid bg-secondary" style="width: 100%">
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center mt-3">
+          <h3 class="fw-bold text-light m-0">
+            <i class="fa-brands fa-shopify"></i> S H O P
+          </h3>
+          <br />
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.facebook.com/"
+            ><i class="fab fa-facebook-f btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://twitter.com/"
+            ><i class="fab fa-twitter btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin-in btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.instagram.com/"
+            ><i class="fab fa-instagram btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://web.whatsapp.com/"
+            ><i class="fab fa-whatsapp btn-outline-light"></i
+          ></a>
+        </div>
+        <div class="col-md-4 mt-3 text-center">
+          <h3 class="text-light fw-bold">Address</h3>
+          <a href="https://maps.google.co.in" class="text-decoration-none"
+            ><i class="fa-solid fa-location-dot btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxxxxx-xxxxxxxxxxxxx</p></a
+          >
+          <a href="chandantty89@gmail.com" class="text-decoration-none"
+            ><i class="fa-solid fa-envelope btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxx@gmail.com</p></a
+          >
+          <a href="" class="text-decoration-none"
+            ><i class="fa-solid fa-phone btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxxxxxxxx</p></a
+          >
+        </div>
+        <div class="col-md-4 text-center">
+          <h3 class="text-light mt-3 fw-bold">Quick Link</h3>
+          <a href="index.html" class="nav-item nav-link text-light">Home</a>
+          <a href="product.html" class="nav-item nav-link text-light"
+            >Products</a
+          >
+          <a href="contact.html" class="nav-item nav-link text-light"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--lower footer-->
+
+    <div class="container-fluid bg-secondary pb-5" style="width: 100%">
+      <span class="text-light">&copy;chandan palei, all right reserved</span
+      ><br />
+      <span class="text-light">Designed by chandan palei</span>
+      <a
+        href="#"
+        class="btn btn-lg btn-light btn-lg-square rounded-circle back-to-top float-end"
+        ><i class="fa-solid fa-arrow-up"></i
+      ></a>
+    </div>
+
+    <script src="./index.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./filter.js"></script>
+    <script src="./search.js"></script>
+    
+  </body>
+</html>

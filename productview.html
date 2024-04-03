@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>productview</title>
+    <!--cdn bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="./index.css" />
+    <!--owl-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!--stripe-->
+    <script src="https://js.stripe.com/v3/"></script>
+
+  </head>
+  <body>
+    <!--uppernav-->
+    <div class="container-fluid p-0 bg-light">
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4 style="text-align: center">FLAT 50% OFF ON JACKET</h4>
+          </div>
+          <div class="carousel-item">
+            <h4 style="text-align: center">25% OFF ON SHOES</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--nav-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+      <div class="container-fluid">
+        <button
+          class="btn btn-sm"
+          type="button"
+          style="width: 33%; padding-right: 28%"
+          data-bs-toggle="collapse"
+          data-bs-target="#sidebar"
+          aria-expanded="false"
+          aria-controls="sidebar"
+        >
+          <i class="fa-solid fa-bars bg-light"></i>
+        </button>
+
+        <div class="container-md" style="text-align: center; width: 33%">
+          <a class="navbar-brand text-light" href="">
+            <i class="fa-brands fa-shopify"></i> S H O P</a
+          >
+        </div>
+
+        <div class="navbar-toggler" style="width: 33%">
+          <div class="navbar-nav ms-auto">
+            <div class="d-flex justify-content-end">
+              <a href="" class="nav-item text-light nav-link me-4"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+              <a href="" class="nav-item text-light nav-link me-4"
+                ><i class="fa-solid fa-download"></i
+              ></a>
+              <a href="" class="nav-item text-light nav-link"
+                ><i class="fa-solid fa-camera"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" style="width: 33%" id="navbarID">
+          <div class="navbar-nav ms-auto">
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-regular fa-user"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-regular fa-heart"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2" data-bs-toggle="collapse"
+            data-bs-target="#carthead"
+            aria-expanded="false"
+            aria-controls="carthead"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-solid fa-camera"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-toggler" style="width: 100%">
+        <div class="navbar-nav">
+          <div class="d-flex justify-content-center fixed-bottom bg-dark">
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5" data-bs-toggle="collapse"
+            data-bs-target="#carthead"
+            aria-expanded="false"
+            aria-controls="carthead"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-house"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-wand-magic-sparkles"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--cart-->
+    <div class="collapse bg-dark text-light  position-absolute" style="width: 40%; margin-left: 60%; z-index: 1;" id="carthead">
+      <p class="display-6 ">C A R T</p>
+      <hr>
+      <div class="d-flex">
+      <div class="container-fluid" id="cartbody" style="display: none;">
+      <p id="sizeofcart"></p>
+      <p id="cartname"></p>
+       
+       <!--  <button class="rounded-circle bg-dark text-light me-2 "onclick="minusquantity()">-</button> -->
+       <p id="quantitycart">0</p>
+       <!-- <button class="rounded-circle bg-dark text-light ms-2 " onclick="plusquantity()">+</button> -->
+      <p id="cartprice"></p>
+      <button class="btn bg-light text-dark mb-2"id="payment" onclick="pay()"></button>
+      </div>
+    </div>
+    </div>
+<!--||| collapse-->
+    <div class="collapse bg-dark position-absolute" id="sidebar">
+      <a href="" class="nav-item nav-link text-light me-2"
+        ><i class="fa-regular fa-user"></i>L O G I N</a
+      >
+      <a href="" class="nav-item nav-link text-light me-2">S H I R T</a>
+      <a href="" class="nav-item nav-link text-light me-2">P A I N T</a>
+      <a href="" class="nav-item nav-link text-light me-2"
+        >A C C E S S O R I E S</a
+      >
+      <a href="" class="nav-item nav-link text-light me-2">J A C K E T</a>
+    </div>
+
+    <div class="container-fluid" style="width: 100%; height: 20vh"></div>
+    <div class="container-md   d-flex">
+      <div
+        class="container-fluid overflow-hidden me-2"
+        id="redshirtimg"
+        style="width: 40%; height: 100vh"
+      >
+        <img
+          src="./image/product1.jpeg" id="redshirt"
+          alt=""
+          style="width: 100%; height: 100vh"
+        />
+      </div>
+
+      <div style="width: 60%">
+        <div class="container-fluid">
+          <h3 id="nameofcart" class="">RED CUT & SEW SHIRT</h3>
+          <p id="priceofcart" class="card-text text-secondary">Rs.1,200</p>
+          <p>(incl of all taxes)</p>
+          <hr />
+        </div>
+        <div class="container-fluid">
+          <ul style="list-style-image: url(./image/discountimage.png)">
+            <li>
+              Get this for Rs. 1,079 <br />
+              Buy 2 & Get Flat 10% Off! Code: BUY2
+            </li>
+            <li>
+              Get this for Rs. 959 <br />
+              Buy 5 & Get Flat 20% Off! Code: BUY5
+            </li>
+            <li>
+              Get this for Rs. 1,019 <br />
+              Flat 15% Off on minimum purchase of 2699/- <br />
+              Code: FLAT15
+            </li>
+            <li>
+              Get this for Rs. 959 <br />
+              Flat 20% Off on minimum purchase of 3999/- <br />
+              Code: FLAT20
+            </li>
+          </ul>
+          <hr />
+        </div>
+        <div class="mb-5">
+          <p>S I Z E</p>
+          <div class="d-flex">
+            <button class="btn btn-outline-dark" id="xs" onclick="xs()">
+              XS
+            </button>
+            <button class="btn btn-outline-dark" id="s" onclick="s()">S</button>
+            <button class="btn btn-outline-dark" id="m" onclick="m()">M</button>
+            <button class="btn btn-outline-dark" id="l" onclick="l()">L</button>
+            <button class="btn btn-outline-dark" id="xl" onclick="xl()">
+              XL
+            </button>
+            <button class="btn btn-outline-dark" id="xxl" onclick="xxl()">
+              XXL
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <button
+            class="btn bg-dark text-light"
+            style="width: 100%"
+            onclick="cart()"
+            data-bs-toggle="collapse"
+          data-bs-target="#carthead"
+          aria-expanded="false"
+          aria-controls="carthead"
+          >
+            ADD TO CART
+          </button>
+        
+        </div>
+      </div>
+    </div>
+<!--footer-->
+    <div class="container-fluid bg-secondary" style="width: 100%">
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center mt-3">
+          <h3 class="fw-bold text-light m-0">
+            <i class="fa-brands fa-shopify"></i> S H O P
+          </h3>
+          <br />
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.facebook.com/"
+            ><i class="fab fa-facebook-f btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://twitter.com/"
+            ><i class="fab fa-twitter btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin-in btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.instagram.com/"
+            ><i class="fab fa-instagram btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://web.whatsapp.com/"
+            ><i class="fab fa-whatsapp btn-outline-light"></i
+          ></a>
+        </div>
+        <div class="col-md-4 mt-3 text-center">
+          <p class="display-6 text-light fw-bold">Address</p>
+          <a href="https://maps.google.co.in" class="text-decoration-none"
+            ><i class="fa-solid fa-location-dot btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxxxxx-xxxxxxxxxxxxx</p></a
+          >
+          <a href="chandantty89@gmail.com" class="text-decoration-none"
+            ><i class="fa-solid fa-envelope btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxx@gmail.com</p></a
+          >
+          <a href="" class="text-decoration-none"
+            ><i class="fa-solid fa-phone btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxxxxxxxx</p></a
+          >
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="display-6 text-light mt-3 fw-bold">Quick Link</p>
+          <a href="index.html" class="nav-item nav-link text-light">Home</a>
+          <a href="./product.html" class="nav-item nav-link text-light"
+            >Products</a
+          >
+          <a href="contact.html" class="nav-item nav-link text-light"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--lower footer-->
+
+    <div class="container-fluid bg-secondary pb-5" style="width: 100%">
+      <span class="text-light">&copy;chandan palei, all right reserved</span
+      ><br />
+      <span class="text-light">Designed by chandan palei</span>
+      <a
+        href="#"
+        class="btn btn-lg btn-light btn-lg-square rounded-circle back-to-top float-end"
+        ><i class="fa-solid fa-arrow-up"></i
+      ></a>
+    </div>
+
+    <script src="./index.js" defer></script>
+    <script src="./cart.js"></script>
+  
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

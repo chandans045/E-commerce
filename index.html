@@ -1,0 +1,2631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <!--cdn bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!--owl-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <!--uppernav-->
+    <div class="container-fluid p-0 bg-light">
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4 style="text-align: center">FLAT 50% OFF ON JACKET</h4>
+          </div>
+          <div class="carousel-item">
+            <h4 style="text-align: center">25% OFF ON SHOES</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--nav-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+      <div class="container-fluid">
+        <button
+          class="btn btn-sm"
+          type="button"
+          style="width: 33%; padding-right: 28%"
+          data-bs-toggle="collapse"
+          data-bs-target="#sidebar"
+          aria-expanded="false"
+          aria-controls="sidebar"
+        >
+          <i class="fa-solid fa-bars bg-light"></i>
+        </button>
+
+        <div class="container-md" style="text-align: center; width: 33%">
+          <a class="navbar-brand text-light" href="./index.html">
+            <i class="fa-brands fa-shopify"></i> S H O P</a
+          >
+        </div>
+
+        <div class="navbar-toggler" style="width: 33%">
+          <div class="navbar-nav ms-auto">
+            <div class="d-flex justify-content-end">
+              <a href="" class="nav-item text-light nav-link me-4"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+              <a href="" class="nav-item text-light nav-link me-4"
+                ><i class="fa-solid fa-download"></i
+              ></a>
+              <a href="" class="nav-item text-light nav-link"
+                ><i class="fa-solid fa-camera"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" style="width: 33%" id="navbarID">
+          <div class="navbar-nav ms-auto">
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-regular fa-user"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-regular fa-heart"></i
+            ></a>
+            <a
+              href=""
+              class="nav-item text-light nav-link me-2"data-bs-toggle="collapse"
+              data-bs-target="#carthead"
+              aria-expanded="false"
+              aria-controls="carthead"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-2"
+              ><i class="fa-solid fa-camera"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-toggler" style="width: 100%">
+        <div class="navbar-nav">
+          <div class="d-flex justify-content-center fixed-bottom bg-dark">
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"data-bs-toggle="collapse"
+            data-bs-target="#carthead"
+            aria-expanded="false"
+            aria-controls="carthead"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-house"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link me-5"
+              ><i class="fa-solid fa-wand-magic-sparkles"></i
+            ></a>
+            <a href="" class="nav-item text-light nav-link"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- cart -->
+    <div class="collapse bg-dark text-light  position-absolute" style="width: 40%; margin-left: 60%; z-index: 3;" id="carthead">
+      <p class="display-6 ">C A R T</p>
+      <hr>
+      <div class="d-flex">
+      <div class="container-fluid" id="cartbody" style="display: none;">
+      <p id="sizeofcart"></p>
+      <p id="cartname"></p>
+       
+       <!-- <button class="rounded-circle bg-dark text-light me-2 "onclick="minusquantity()">-</button> -->
+       <span id="quantitycart">0</span>
+       <!-- <button class="rounded-circle bg-dark text-light ms-2 " onclick="plusquantity()">+</button> -->
+      <p id="cartprice"></p>
+      <button class="btn bg-light text-dark mb-2"id="payment"></button>
+      </div>
+    </div>
+  </div>
+  
+<!---->
+    <div
+      class="collapse bg-dark position-absolute"
+      id="sidebar"
+      style="z-index:2"
+    >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        ><i class="fa-regular fa-user"></i>L O G I N</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >S H I R T</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >P A I N T</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >A C C E S S O R I E S</a
+      >
+      <a
+        href=""
+        class="nav-item nav-link text-light me-2 wow animate__animated animate__slideInLeft"
+        style="animation-duration: 2s"
+        >J A C K E T</a
+      >
+    </div>
+
+
+
+    <!--carousel-->
+    <div
+      id="carousel_sec1"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel_sec1"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel_sec1"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image/carousel1.jpeg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-none d-md-block"
+            style="margin-right: 50%; margin-bottom: 26%"
+          >
+            <button type="button" class="btn btn-sm bg-light btn-outline-dark">
+              <a href="./product.html" class="text-decoration-none text-dark"
+                >SHOP NOW</a
+              >
+            </button>
+            <h3>20% OFF ON CLASSIC OUTFIT</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./image/carousel2.jpeg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-none d-md-block"
+            style="margin-bottom: 26%; margin-right: 50%"
+          >
+            <button type="button" class="btn btn-sm bg-light btn-outline-dark">
+              <a href="./product.html" class="text-decoration-none text-dark"
+                >SHOP NOW</a
+              >
+            </button>
+            <h3>30% OFF ON JACKET</h3>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel_sec1"
+        data-bs-slide="prev"
+      ></button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel_sec1"
+        data-bs-slide="next"
+      ></button>
+    </div>
+
+    <!--section1-->
+    <!--section1.1-->
+    <div class="container-fluid mt-5 mb-5 text-center">
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-dark rounded-pill"
+        style="background-color: black; color: white"
+        onclick="gotodrops()"
+        id="newdropsbtn"
+      >
+        NEW DROPS
+      </button>
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-dark rounded-pill"
+        onclick="gototrending()"
+        id="mosttreandingbtn"
+      >
+        MOST TRENDING
+      </button>
+    </div>
+
+    <!--section1.2-->
+    <div class="container-fluid mt-2 mb-5" id="product_sec1">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div
+          class="col-md-2"
+          onmouseover="product1change()"
+          onmouseout="product1changeagain()"
+        >
+          <a href="./productview.html" class="text-decoration-none">
+            <div class="card shadow-sm">
+              <img src="./image/product1.jpeg" id="product1" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center text-dark">
+                  Red Cut & Sew Shirt
+                </p>
+                <p class="card-text text-secondary text-center">Rs. 1,200</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XS</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">S</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">M</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">L</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XL</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XXL</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div
+          class="col-md-2"
+          onmouseover="product2change()"
+          onmouseout="product2changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product2.jpeg" id="product2" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Olive Cut & Sew Shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,300</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-2"
+          onmouseover="product3change()"
+          onmouseout="product3changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product3.jpeg" id="product3" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">White Cut & Sew Shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,100</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-2"
+          onmouseover="product4change()"
+          onmouseout="product4changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product4.jpeg" id="product4" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Patch Blue Overshirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,600</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-2"
+          onmouseover="product5change()"
+          onmouseout="product5changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product5.jpeg" id="product5" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Patch Green Overshirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,700</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section1.3-->
+    <div
+      class="container-fluid mt-2 mb-5"
+      style="display: none"
+      id="product_sec2"
+    >
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div
+          class="col-md-2 ms-4"
+          onmouseover="product6change()"
+          onmouseout="product6changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product6.jpeg" id="product6" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Vintage Beige Pant</p>
+              <p class="card-text text-secondary text-center">Rs. 1,500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-2 ms-4"
+          onmouseover="product7change()"
+          onmouseout="product7changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product7.jpeg" id="product7" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Vintage Black Pant</p>
+              <p class="card-text text-secondary text-center">Rs. 2,300</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-2 ms-4"
+          onmouseover="product8change()"
+          onmouseout="product8changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product8.jpeg" id="product8" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Vintage Brown Pant</p>
+              <p class="card-text text-secondary text-center">Rs. 1,800</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-2 ms-4"
+          onmouseover="product9change()"
+          onmouseout="product9changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product9.jpeg" id="product9" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Vintage Olive Pant</p>
+              <p class="card-text text-secondary text-center">Rs. 1,400</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-2 ms-4"
+          onmouseover="product10change()"
+          onmouseout="product10changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product10.jpeg" id="product10" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">White Shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,700</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section2-->
+    <div class="container-fluid mt-5 mb-3">
+      <h2 class="text-center">
+        SEASONAL FAV'S <img src="./image/season.png" alt="" />
+      </h2>
+    </div>
+    <div class="container-fluid mt-2 mb-5">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div class="col-md-3" id="season_cargos">
+          <div class="card shadow-sm" style="border-radius: 4%">
+            <img src="./image/cargo.jpeg" style="border-radius: 4%" alt="" />
+            <p
+              class="card-text position-absolute text-dark fw-bold"
+              style="top: 88%; font-size: 20px"
+            >
+              C A R G O S
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3" id="season_linens">
+          <div class="card shadow-sm" style="border-radius: 4%">
+            <img src="./image/linen.jpeg" style="border-radius: 4%" alt="" />
+            <p
+              class="card-text position-absolute text-dark fw-bold"
+              style="top: 88%; font-size: 20px"
+            >
+              L I N E N S
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3" id="season_essentials">
+          <div class="card shadow-sm" style="border-radius: 4%">
+            <img
+              src="./image/essentials.jpeg"
+              alt=""
+              style="border-radius: 4%"
+            />
+            <p
+              class="card-text position-absolute text-dark fw-bold"
+              style="top: 88%; font-size: 20px"
+            >
+              E S S E N T I A L S
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3" id="season_shorts">
+          <div class="card shadow-sm" style="border-radius: 4%">
+            <img src="./image/shorts.jpeg" style="border-radius: 4%" alt="" />
+            <p
+              class="card-text position-absolute text-dark fw-bold"
+              style="top: 88%; font-size: 20px"
+            >
+              S H O R T S
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--poster section 3-->
+    <div
+      class="container-fluid mb-5"
+      style="
+        background-image: url(/image/backgroundimg.jpeg);
+        height: 100%;
+        width: 100%;
+      "
+    >
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div class="col-md-3 text-center" style="margin-top: 22%">
+          <div
+            class="wow animate__animated animate__slideInRight"
+            style="animation-duration: 2s; margin-bottom: 26%"
+          >
+            <button type="button" class="btn btn-sm bg-dark">
+              <a href="./product.html" class="text-decoration-none text-light"
+                >SHOP NOW</a
+              >
+            </button>
+            <h3 class="fw-bold">FLAT 50% OFF ON OUTFITS</h3>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <img
+            src="./image/png1.png"
+            id="posterimg"
+            alt=""
+            class="wow animate__animated animate__slideInLeft"
+            style="animation-duration: 2s; width: 100%; height: auto"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--section4-->
+    <!--section4.1-->
+    <div class="container-fluid mt-5 mb-5 text-center">
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-dark rounded-pill"
+        style="background-color: black; color: white"
+        onclick="gotoshirts()"
+        id="shirtsbtn"
+      >
+        SHIRTS
+      </button>
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-dark rounded-pill"
+        onclick="gotojeans()"
+        id="jeansbtn"
+      >
+        JEANS
+      </button>
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-dark rounded-pill"
+        onclick="gototshirts()"
+        id="tshirtsbtn"
+      >
+        T-SHIRTS
+      </button>
+      <button
+        type="button"
+        class="btn btn-sm btn-outline-dark rounded-pill"
+        onclick="gototrousers()"
+        id="trousersbtn"
+      >
+        TROUSERS
+      </button>
+    </div>
+    <!--section 4.2 shirts-->
+    <div class="container-fluid mt-2 mb-5" id="product_sec3">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div
+          class="col-md-3"
+          onmouseover="product11change()"
+          onmouseout="product11changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product11.jpeg" id="product11" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Black Shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product12change()"
+          onmouseout="product12changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product12.jpeg" id="product12" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Grey Shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 2,300</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product13change()"
+          onmouseout="product13changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product13.jpeg" id="product13" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Red Cut</p>
+              <p class="card-text text-secondary text-center">Rs. 1,800</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product14change()"
+          onmouseout="product14changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product14.jpeg" id="product14" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Green Cut</p>
+              <p class="card-text text-secondary text-center">Rs. 1,700</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section 4.3 jeans-->
+    <div
+      class="container-fluid mt-2 mb-5"
+      style="display: none"
+      id="product_sec4"
+    >
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div
+          class="col-md-3"
+          onmouseover="product16change()"
+          onmouseout="product16changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product16.jpeg" id="product16" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Black Jeans</p>
+              <p class="card-text text-secondary text-center">Rs. 1,700</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product17change()"
+          onmouseout="product17changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product17.jpeg" id="product17" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Blue Jeans</p>
+              <p class="card-text text-secondary text-center">Rs. 2,400</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product18change()"
+          onmouseout="product18changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product18.jpeg" id="product18" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Jet Black Jeans</p>
+              <p class="card-text text-secondary text-center">Rs. 1,500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product19change()"
+          onmouseout="product19changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product19.jpeg" id="product19" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Grey Jeans</p>
+              <p class="card-text text-secondary text-center">Rs. 1,500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section 4.4 tshirts-->
+    <div
+      class="container-fluid mt-2 mb-5"
+      style="display: none"
+      id="product_sec5"
+    >
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div
+          class="col-md-3"
+          onmouseover="product21change()"
+          onmouseout="product21changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product21.jpeg" id="product21" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Black T-shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,600</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product22change()"
+          onmouseout="product22changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product22.jpeg" id="product22" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Blue T-shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,300</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product23change()"
+          onmouseout="product23changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product23.jpeg" id="product23" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Brown T-shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,000</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product24change()"
+          onmouseout="product24changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product24.jpeg" id="product24" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">White T-shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,700</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XS</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">S</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">M</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">L</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XL</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">XXL</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--section4.5 trousers-->
+
+    <div
+      class="container-fluid mt-2 mb-5"
+      style="display: none"
+      id="product_sec6"
+    >
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+      >
+        <div
+          class="col-md-3"
+          onmouseover="product26change()"
+          onmouseout="product26changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product26.jpeg" id="product26" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Vintage Beige Pant</p>
+              <p class="card-text text-secondary text-center">Rs. 1,500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product27change()"
+          onmouseout="product27changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product27.jpeg" id="product27" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Vintage Black Pant</p>
+              <p class="card-text text-secondary text-center">Rs. 2,300</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product28change()"
+          onmouseout="product28changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product28.jpeg" id="product28" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">Vintage Brown Pant</p>
+              <p class="card-text text-secondary text-center">Rs. 1,800</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3"
+          onmouseover="product29change()"
+          onmouseout="product29changeagain()"
+        >
+          <div class="card shadow-sm">
+            <img src="./image/product29.jpeg" id="product29" alt="" />
+
+            <div class="card-body">
+              <p class="card-text text-center">White Shirt</p>
+              <p class="card-text text-secondary text-center">Rs. 1,700</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="container-md">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">30</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">32</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">34</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">36</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">38</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                  >
+                    <span class="text-dark">40</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--owl section-->
+    <hr />
+    <div class="container-fluid mt-5 mb-3" id="discount">
+      <h2 class="text-center">50% OFF PRODUCTS</h2>
+    </div>
+    <div class="owl-carousel owl-theme mt-lg-3">
+      <!--owl trousers section-->
+      <div class="container-fluid mt-2 mb-5">
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+        >
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product26.jpeg" id="product26" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Grey Trouser</p>
+                <p class="card-text text-secondary text-center">Rs. 1,500</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product27.jpeg" id="product27" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Green trouser</p>
+                <p class="card-text text-secondary text-center">Rs. 2,300</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product28.jpeg" id="product28" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Blue Trouser</p>
+                <p class="card-text text-secondary text-center">Rs. 1,800</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product29.jpeg" id="product29" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Green Trouser</p>
+                <p class="card-text text-secondary text-center">Rs. 1,700</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--owl tshirts section-->
+      <div class="container-fluid mt-2 mb-5">
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+        >
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product21.jpeg" id="product21" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Black T-shirt</p>
+                <p class="card-text text-secondary text-center">Rs. 1,600</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XS</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">S</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">M</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">L</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XL</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XXL</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product22.jpeg" id="product22" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Blue T-shirt</p>
+                <p class="card-text text-secondary text-center">Rs. 1,300</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XS</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">S</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">M</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">L</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XL</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XXL</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product23.jpeg" id="product23" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Brown T-shirt</p>
+                <p class="card-text text-secondary text-center">Rs. 1,000</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XS</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">S</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">M</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">L</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XL</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XXL</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product24.jpeg" id="product24" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">White T-shirt</p>
+                <p class="card-text text-secondary text-center">Rs. 1,700</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XS</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">S</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">M</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">L</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XL</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">XXL</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--owl jeans section-->
+      <div class="container-fluid mt-2 mb-5" id="discount">
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+        >
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product16.jpeg" id="product16" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Black Jeans</p>
+                <p class="card-text text-secondary text-center">Rs. 1,700</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product17.jpeg" id="product17" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Blue Jeans</p>
+                <p class="card-text text-secondary text-center">Rs. 2,400</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product18.jpeg" id="product18" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Jet Black Jeans</p>
+                <p class="card-text text-secondary text-center">Rs. 1,500</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card shadow-sm">
+              <img src="./image/product19.jpeg" id="product19" alt="" />
+
+              <div class="card-body">
+                <p class="card-text text-center">Grey Jeans</p>
+                <p class="card-text text-secondary text-center">Rs. 1,500</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="container-md">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">30</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">32</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">34</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">36</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">38</span>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary ms-2 mb-2"
+                    >
+                      <span class="text-dark">40</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <!--footer-->
+    <div class="container-fluid bg-secondary" style="width: 100%">
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center mt-3">
+          <h3 class="fw-bold text-light m-0">
+            <i class="fa-brands fa-shopify"></i> S H O P
+          </h3>
+          <br />
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.facebook.com/"
+            ><i class="fab fa-facebook-f btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://twitter.com/"
+            ><i class="fab fa-twitter btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin-in btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://www.instagram.com/"
+            ><i class="fab fa-instagram btn-outline-light"></i
+          ></a>
+          <a
+            class="btn btn-square btn-outline-light rounded-circle ms-3"
+            href="https://web.whatsapp.com/"
+            ><i class="fab fa-whatsapp btn-outline-light"></i
+          ></a>
+        </div>
+        <div class="col-md-4 mt-3 text-center">
+          <p class="display-6 text-light fw-bold">Address</p>
+          <a href="https://maps.google.co.in" class="text-decoration-none"
+            ><i class="fa-solid fa-location-dot btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxxxxx-xxxxxxxxxxxxx</p></a
+          >
+          <a href="chandantty89@gmail.com" class="text-decoration-none"
+            ><i class="fa-solid fa-envelope btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxx@gmail.com</p></a
+          >
+          <a href="" class="text-decoration-none"
+            ><i class="fa-solid fa-phone btn-outline-light"></i>
+            <p id="footerp" class="text-light">xxxxxxxxxx</p></a
+          >
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="display-6 text-light mt-3 fw-bold">Quick Link</p>
+          <a href="./index.html" class="nav-item nav-link text-light">Home</a>
+          <a href="./product.html" class="nav-item nav-link text-light"
+            >Products</a
+          >
+          <a href="#discount" class="nav-item nav-link text-light"
+            >Discount Product</a
+          >
+          <a href="" class="nav-item nav-link text-light"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--lower footer-->
+
+    <div class="container-fluid bg-secondary pb-5" style="width: 100%">
+      <span class="text-light">&copy;chandan palei, all right reserved</span
+      ><br />
+      <span class="text-light">Designed by chandan palei</span>
+      <a
+        href="#"
+        class="btn btn-lg btn-light btn-lg-square rounded-circle back-to-top float-end"
+        ><i class="fa-solid fa-arrow-up"></i
+      ></a>
+    </div>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+      new WOW().init();
+    </script>
+
+    <script src="./index.js" defer></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+#season_cargos,#season_linens,#season_essentials,#season_shorts{
+    transition: 1s;
+}
+#season_cargos:hover,#season_linens:hover,#season_essentials:hover,#season_shorts:hover{
+   transform:translateY(-20px);
+   filter: drop-shadow(0 50px 20px #0009);
+}
+@media(max-width:600px)
+{
+    #posterimg{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media(max-width:600px)
+{
+    #redshirt{
+        max-width: 100%;
+        height: auto;
+    }
+}
+#posterimg{
+    filter: drop-shadow(0 50px 20px #0009);
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    font-size: 80px !important;
+    justify-content: center;
+    left:0;
+    top: 20%;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    font-size: 80px !important;
+    justify-content: center;
+    right:0;
+    top: 20%;
+}
+
+/* <div class="modal fade" id="cart" aria-hidden="true" aria-labelledby="cartLabel" tabindex="-1">
+<div class="modal-dialog modal-lg ">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="cartLabel">C A R T</h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body d-flex justify-content-between " id="cartbody">
+    <p class=""id="sizeofcart"></p>
+     <p class=""id="cartname"></p>
+      
+      <button class="rounded-circle bg-dark text-light me-2 "onclick="minusquantity()">-</button>
+      <span id="quantitycart">0</span>
+      <button class="rounded-circle bg-dark text-light ms-2 " onclick="plusquantity()">+</button>
+     <p class=""id="cartprice"></p>
+    </div>
+    <div class="container-fluid d-none mt-3 mb-3"id="paymentshow">
+      <button class="btn btn-outline-dark  bg-light  text-dark"  style="width: 100%">PAYMENT</button>
+    </div>
+  </div>
+  </div>
+</div> */
+

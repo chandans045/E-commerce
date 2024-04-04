@@ -28,92 +28,92 @@ btn1.style.backgroundColor="white"
 //1
 function product1change(){
     let i=document.getElementById("product1");
-    i.src="/image/producteffect1.jpeg";
+    i.src="./image/producteffect1.jpeg";
 }
 function product1changeagain(){
     let i=document.getElementById("product1");
-    i.src="/image/product1.jpeg";
+    i.src="./image/product1.jpeg";
 }
 //2
 function product2change(){
     let i=document.getElementById("product2");
-    i.src="/image/producteffect2.jpeg";
+    i.src="./image/producteffect2.jpeg";
 }
 function product2changeagain(){
     let i=document.getElementById("product2");
-    i.src="/image/product2.jpeg";
+    i.src="./image/product2.jpeg";
 }
 //3
 function product3change(){
     let i=document.getElementById("product3");
-    i.src="/image/producteffect3.jpeg";
+    i.src="./image/producteffect3.jpeg";
 }
 function product3changeagain(){
     let i=document.getElementById("product3");
-    i.src="/image/product3.jpeg";
+    i.src="./image/product3.jpeg";
 }
 //4
 function product4change(){
     let i=document.getElementById("product4");
-    i.src="/image/producteffect4.jpeg";
+    i.src="./image/producteffect4.jpeg";
 }
 function product4changeagain(){
     let i=document.getElementById("product4");
-    i.src="/image/product4.jpeg";
+    i.src="./image/product4.jpeg";
 }
 //5
 function product5change(){
     let i=document.getElementById("product5");
-    i.src="/image/producteffect5.jpeg";
+    i.src="./image/producteffect5.jpeg";
 }
 function product5changeagain(){
     let i=document.getElementById("product5");
-    i.src="/image/product5.jpeg";
+    i.src="./image/product5.jpeg";
 }
 //6
 function product6change(){
     let i=document.getElementById("product6");
-    i.src="/image/producteffect6.jpeg";
+    i.src="./image/producteffect6.jpeg";
 }
 function product6changeagain(){
     let i=document.getElementById("product6");
-    i.src="/image/product6.jpeg";
+    i.src="./image/product6.jpeg";
 }
 //7
 function product7change(){
     let i=document.getElementById("product7");
-    i.src="/image/producteffect7.jpeg";
+    i.src="./image/producteffect7.jpeg";
 }
 function product7changeagain(){
     let i=document.getElementById("product7");
-    i.src="/image/product7.jpeg";
+    i.src="./image/product7.jpeg";
 }
 //8
 function product8change(){
     let i=document.getElementById("product8");
-    i.src="/image/producteffect8.jpeg";
+    i.src="./image/producteffect8.jpeg";
 }
 function product8changeagain(){
     let i=document.getElementById("product8");
-    i.src="/image/product8.jpeg";
+    i.src="./image/product8.jpeg";
 }
 //9
 function product9change(){
     let i=document.getElementById("product9");
-    i.src="/image/producteffect9.jpeg";
+    i.src="./image/producteffect9.jpeg";
 }
 function product9changeagain(){
     let i=document.getElementById("product9");
-    i.src="/image/product9.jpeg";
+    i.src="./image/product9.jpeg";
 }
 //10
 function product10change(){
     let i=document.getElementById("product10");
-    i.src="/image/producteffect10.jpeg";
+    i.src="./image/producteffect10.jpeg";
 }
 function product10changeagain(){
     let i=document.getElementById("product10");
-    i.src="/image/product10.jpeg";
+    i.src="./image/product10.jpeg";
 }
 
 
@@ -219,145 +219,145 @@ btn3.style.backgroundColor="white";
 //product11
 function product11change(){
     let i=document.getElementById("product11");
-    i.src="/image/producteffect11.jpeg";
+    i.src="./image/producteffect11.jpeg";
 }
 function product11changeagain(){
     let i=document.getElementById("product11");
-    i.src="/image/product11.jpeg";
+    i.src="./image/product11.jpeg";
 }
 //product12
 function product12change(){
     let i=document.getElementById("product12");
-    i.src="/image/producteffect12.jpeg";
+    i.src="./image/producteffect12.jpeg";
 }
 function product12changeagain(){
     let i=document.getElementById("product12");
-    i.src="/image/product12.jpeg";
+    i.src="./image/product12.jpeg";
 }
 //product13
 function product13change(){
     let i=document.getElementById("product13");
-    i.src="/image/producteffect13.jpeg";
+    i.src="./image/producteffect13.jpeg";
 }
 function product13changeagain(){
     let i=document.getElementById("product13");
-    i.src="/image/product13.jpeg";
+    i.src="./image/product13.jpeg";
 }
 //product14
 function product14change(){
     let i=document.getElementById("product14");
-    i.src="/image/producteffect14.jpeg";
+    i.src="./image/producteffect14.jpeg";
 }
 function product14changeagain(){
     let i=document.getElementById("product14");
-    i.src="/image/product14.jpeg";
+    i.src="./image/product14.jpeg";
 }
 //product16
 function product16change(){
     let i=document.getElementById("product16");
-    i.src="/image/producteffect16.jpeg";
+    i.src="./image/producteffect16.jpeg";
 }
 function product16changeagain(){
     let i=document.getElementById("product16");
-    i.src="/image/product16.jpeg";
+    i.src="./image/product16.jpeg";
 }
 //product17
 function product17change(){
     let i=document.getElementById("product17");
-    i.src="/image/producteffect17.jpeg";
+    i.src="./image/producteffect17.jpeg";
 }
 function product17changeagain(){
     let i=document.getElementById("product17");
-    i.src="/image/product17.jpeg";
+    i.src="./image/product17.jpeg";
 }
 //product18
 function product18change(){
     let i=document.getElementById("product18");
-    i.src="/image/producteffect18.jpeg";
+    i.src="./image/producteffect18.jpeg";
 }
 function product18changeagain(){
     let i=document.getElementById("product18");
-    i.src="/image/product18.jpeg";
+    i.src="./image/product18.jpeg";
 }
 //product19
 function product19change(){
     let i=document.getElementById("product19");
-    i.src="/image/producteffect19.jpeg";
+    i.src="./image/producteffect19.jpeg";
 }
 function product19changeagain(){
     let i=document.getElementById("product19");
-    i.src="/image/product19.jpeg";
+    i.src="./image/product19.jpeg";
 }
 //product21
 function product21change(){
     let i=document.getElementById("product21");
-    i.src="/image/producteffect21.jpeg";
+    i.src="./image/producteffect21.jpeg";
 }
 function product21changeagain(){
     let i=document.getElementById("product21");
-    i.src="/image/product21.jpeg";
+    i.src="./image/product21.jpeg";
 }
 //22
 function product22change(){
     let i=document.getElementById("product22");
-    i.src="/image/producteffect22.jpeg";
+    i.src="./image/producteffect22.jpeg";
 }
 function product22changeagain(){
     let i=document.getElementById("product22");
-    i.src="/image/product22.jpeg";
+    i.src="./image/product22.jpeg";
 }
 //2
 function product23change(){
     let i=document.getElementById("product23");
-    i.src="/image/producteffect23.jpeg";
+    i.src="./image/producteffect23.jpeg";
 }
 function product23changeagain(){
     let i=document.getElementById("product23");
-    i.src="/image/product23.jpeg";
+    i.src="./image/product23.jpeg";
 }
 //24
 function product24change(){
     let i=document.getElementById("product24");
-    i.src="/image/producteffect24.jpeg";
+    i.src="./image/producteffect24.jpeg";
 }
 function product24changeagain(){
     let i=document.getElementById("product24");
-    i.src="/image/product24.jpeg";
+    i.src="./image/product24.jpeg";
 }
 //26
 function product26change(){
     let i=document.getElementById("product26");
-    i.src="/image/producteffect26.jpeg";
+    i.src="./image/producteffect26.jpeg";
 }
 function product26changeagain(){
     let i=document.getElementById("product26");
-    i.src="/image/product26.jpeg";
+    i.src="./image/product26.jpeg";
 }
 //27
 function product27change(){
     let i=document.getElementById("product27");
-    i.src="/image/producteffect27.jpeg";
+    i.src="./image/producteffect27.jpeg";
 }
 function product27changeagain(){
     let i=document.getElementById("product27");
-    i.src="/image/product27.jpeg";
+    i.src="./image/product27.jpeg";
 }
 //28
 function product28change(){
     let i=document.getElementById("product28");
-    i.src="/image/producteffect28.jpeg";
+    i.src="./image/producteffect28.jpeg";
 }
 function product28changeagain(){
     let i=document.getElementById("product28");
-    i.src="/image/product28.jpeg";
+    i.src="./image/product28.jpeg";
 }
 //29
 function product29change(){
     let i=document.getElementById("product29");
-    i.src="/image/producteffect29.jpeg";
+    i.src="./image/producteffect29.jpeg";
 }
 function product29changeagain(){
     let i=document.getElementById("product29");
-    i.src="/image/product29.jpeg";
+    i.src="./image/product29.jpeg";
 }
  new WOW().init();
